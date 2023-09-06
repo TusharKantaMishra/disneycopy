@@ -54,7 +54,7 @@ const Nav = styled.nav`
     height: 70px;
     background: #090b13;
     display: flex;
-    align-items: centre;
+    align-items: center;
     padding: 0 36px;
     overflow-x: hidden;
 `
@@ -102,8 +102,9 @@ const NavMenu = styled.div`
     }
 `
 const UserImg = styled.img`
-    width:48px;
-    height:48px;
+    width: 53px;
+    display: flex;
+    height: 53px;
     border-radius:50%;
     cursor:pointer;
     padding:10px;
