@@ -1,9 +1,9 @@
 import React from "react";
-// import { createRoot } from 'react-dom/client';
 import './App.css';
 import Headder from './components/Headder';
 import Home from './components/Home';
 import Detail from './components/Detail';
+import Login from './components/Login';
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,6 +16,9 @@ function App() {
       <Router>
         <Headder/>
         <Switch>
+          <Route path="/login">
+            <Login/>
+          </Route>
           <Route path="/detail">
             <Detail/>
           </Route>
